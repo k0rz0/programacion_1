@@ -2,58 +2,58 @@ package model;
 
 public class Libro {
 
-    private  string nombre;
-    private  string genero;
-    private  string autor;
-    private  string anioPublicacion;
-    private  string editorial;
-    private  string numeroPaginas;
+    private  String nombre;
+    private  String genero;
+    private  String autor;
+    private  String anioPublicacion;
+    private  String editorial;
+    private  String numeroPaginas;
 
-    public string getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(string nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public string getGenero() {
+    public String getGenero() {
         return genero;
     }
 
-    public void setGenero(string genero) {
+    public void setGenero(String genero) {
         this.genero = genero;
     }
 
-    public string getAutor() {
+    public String getAutor() {
         return autor;
     }
 
-    public void setAutor(string autor) {
+    public void setAutor(String autor) {
         this.autor = autor;
     }
 
-    public string getAnioPublicacion() {
+    public String getAnioPublicacion() {
         return anioPublicacion;
     }
 
-    public void setAnioPublicacion(string anioPublicacion) {
+    public void setAnioPublicacion(String anioPublicacion) {
         this.anioPublicacion = anioPublicacion;
     }
 
-    public string getEditorial() {
+    public String getEditorial() {
         return editorial;
     }
 
-    public void setEditorial(string editorial) {
+    public void setEditorial(String editorial) {
         this.editorial = editorial;
     }
 
-    public string getNumeroPaginas() {
+    public String getNumeroPaginas() {
         return numeroPaginas;
     }
 
-    public void setNumeroPaginas(string numeroPaginas) {
+    public void setNumeroPaginas(String numeroPaginas) {
         this.numeroPaginas = numeroPaginas;
     }
 }
